@@ -1,0 +1,7 @@
+REMINDEDANGELTHATHEWASSOMEWHAT
+
+Using the Java programming language I brute forced this by using the same method as the 
+previous question, but generating a random key of 6 letters. This method took a short
+while as there are 26^6 combinations of letters and my method could generate duplicate 
+keys. I did this until more than ~50 of the 100 most common english words appeared in my
+produced plain text.

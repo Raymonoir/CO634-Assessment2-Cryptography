@@ -1,0 +1,5 @@
+PARISHTHEBONESOFHERANCESTORSHE
+
+I used the Java programming language to loop through each possible letter shift (1-26) and then counting the number 
+of words that appear in the most common 100 english words, the shift with the most common word appearances 
+also appeared in the plain text tess26.

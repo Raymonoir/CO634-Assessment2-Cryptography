@@ -1,0 +1,8 @@
+FTALLANDBEGANJIGGINGUPANDDOWNT
+
+Using the Java programming language I calculated the number of rows required for 
+the transposition cipher : rows = cipher text length / number of columns (4,5 or 6) 
+and then appended to an array (of length rows),  column-wise, the index of the array 
+that is appended to is found by : array index = index of cipher text character % rows.
+The plain text can then be produced by appending the produced string in each array in 
+order. I done this for 4,5 and 6 columns and then chose the one that was not jiberish.

@@ -1,0 +1,14 @@
+E|ENDED|WITH|THE|HEAVY|AND|COU
+
+Using the Java programming language I first analysed the frequencies of each character 
+in the plain text and the cipher text by looping through each and counting each character. 
+This was not as accurate as I would have liked and only the top 4-5 characters for each
+where correctly associated with one another. I then used a bit of brute force by hand
+and had my program output two tables of characters and frequencies for both the cipher
+text and plain text. I then created a function which would recieve two arrays of 
+characters and the cipher text, swapping out each character found in the cipher text from
+one array with the character in the same index in the other array. ie [A,B C], [X,Y,Z]
+where every A would be swapped with an X. Any character that was not accounted for in the
+array would be swapped with a '_'. I would then slowly go through the frequencies, comparing
+them and trying adding simliar frequency characters to the swap arrays until more words were
+formed, repeating this until the entire cipher text was readable.

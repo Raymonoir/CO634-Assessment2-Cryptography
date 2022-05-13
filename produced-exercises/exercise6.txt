@@ -1,0 +1,11 @@
+AUSEWAYWIDEENOUGHFORACARRIAGEA
+
+Using the Java programming language, I first found the number of rows used in the 
+transposition cipher. I then looped through each character of the cipher text and
+appended each character to an array (of length rows), the index of the array which
+is appended to is found by : array index = cipher text index * rows. I then used a 
+while loop and shuffled numbers 0-5 representing the order of the columns I would 
+take characters from. I then produced the plain text by looping through each string
+in the produced array, appending each character in the string in the order produced
+from the random shuffle. The while loop continued until more than ~50 of the top 100
+common english words were found in the produced plain text.

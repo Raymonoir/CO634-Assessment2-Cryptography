@@ -1,0 +1,5 @@
+CESPIPEDINOBEDIENTRESPONSEAMEN
+
+Using the Java programming language I looped through each character in the cipher text shifting
+each character by the associated character in the provided key, the associated character in the 
+key is found with : index in key = index in cipher text % length of key

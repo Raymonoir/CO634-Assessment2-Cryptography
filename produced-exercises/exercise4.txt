@@ -1,0 +1,8 @@
+MHERBASKETANDITGLISTENEDLIKEAS
+
+Using the Java programming language I brute forced this, using the same method as 
+exercise 3 but generating random keys of length 4,5 and 6. Again, this took a while
+as there are 26^4 + 26^5 + 26^6 combinations of keys and my code could produce 
+duplicates, taking around 3 times the amount of time as exercise 3. I looped until
+the produced plain text contained more than ~50 words from the 100 most common
+english words.
